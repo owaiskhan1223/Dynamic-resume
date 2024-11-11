@@ -1,0 +1,103 @@
+body {
+    background-color: #121212; /* Dark background for a modern look */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e0e0e0; /* Light text color for contrast */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+h1 {
+    text-align: center;
+    color: #00bcd4; /* Cyan for a vibrant header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #1e1e1e; /* Darker form background */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #00bcd4; /* Cyan border */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #00bcd4; /* Cyan border for fieldset */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff; /* White for legend text */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff; /* White for labels */
+}
+
+input, textarea {
+    width: calc(100% - 16px); /* Adjusted for padding */
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #00bcd4; /* Cyan border for inputs */
+    border-radius: 4px;
+    background: #2c2c2c; /* Dark background for inputs */
+    color: #ffffff; /* White text in inputs */
+    transition: border 0.3s, background 0.3s; /* Smooth transition */
+}
+
+input:focus, textarea:focus {
+    border-color: #ff4081; /* Pink border on focus */
+    background: #333; /* Slightly lighter background on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    background: #00bcd4; /* Cyan button background */
+    color: white;
+    border: none; /* No border */
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    transition: background 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #ff4081; /* Pink on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #00bcd4; /* Cyan border */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    background: #1e1e1e; /* Dark background for output */
+}
+
+#resumeOutput h2 {
+    color: #00bcd4; /* Cyan for output headings */
+}
+
+.profilepicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #00bcd4; /* Cyan border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    border-radius: 50%; /* Circular profile picture */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
